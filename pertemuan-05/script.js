@@ -44,3 +44,5 @@ contactForm.addEventListener("submit", (event) => { console.log("Form dikirim.")
 }); 
 contactForm.addEventListener("input", () => { formFeedback.textContent = ""; 
 }); 
+contactForm.addEventListener("reset", () => { formFeedback.textContent = ""; 
+}); 
