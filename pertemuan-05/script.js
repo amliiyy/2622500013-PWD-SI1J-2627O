@@ -42,3 +42,5 @@ navToggle.addEventListener("click", () => { console.log("Tombol navigasi diklik.
 }); 
 contactForm.addEventListener("submit", (event) => { console.log("Form dikirim."); 
 }); 
+contactForm.addEventListener("input", () => { formFeedback.textContent = ""; 
+}); 
