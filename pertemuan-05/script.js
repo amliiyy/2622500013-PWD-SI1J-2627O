@@ -38,3 +38,5 @@ navToggle.addEventListener("click", () => { console.log("Tombol navigasi diklik.
 }); 
 () => { console.log("Tombol navigasi diklik."); 
 }); 
+navToggle.addEventListener("click", () => { console.log("Tombol navigasi diklik.");
+}); 
