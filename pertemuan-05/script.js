@@ -32,3 +32,5 @@ const semesterInput = document.getElementById("semester"); const email = emailIn
 const semester = semesterInput.value; 
 const formFeedback = document.getElementById("formFeedback"); 
 formFeedback.textContent = "Form berhasil divalidasi."; 
+const isOpen = navMenu.classList.toggle("nav-open"); 
+const navMenu = document.getElementById("navMenu"); navMenu.classList.contains("nav-open"); 
