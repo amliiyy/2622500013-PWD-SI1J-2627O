@@ -34,3 +34,7 @@ const formFeedback = document.getElementById("formFeedback");
 formFeedback.textContent = "Form berhasil divalidasi."; 
 const isOpen = navMenu.classList.toggle("nav-open"); 
 const navMenu = document.getElementById("navMenu"); navMenu.classList.contains("nav-open"); 
+navToggle.addEventListener("click", () => { console.log("Tombol navigasi diklik."); 
+}); 
+() => { console.log("Tombol navigasi diklik."); 
+}); 
