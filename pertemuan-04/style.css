@@ -76,7 +76,7 @@
            border: 1px solid #d0d7de; 
            padding: 20px; 
            margin: 0; 
-        }
+        } 
         body {
            margin: 0;
            padding: 12px;
@@ -200,17 +200,17 @@
            color: #ffffff; 
            font-weight: bold; 
            text-decoration: none; 
+        } 
+        main {
+           display: grid;
         }
         main {
-          display: grid;
+           display: grid;
+           grid-template-columns: 1fr;
         }
         main {
-          display: grid;
-          grid-template-columns: 1fr;
-        }
-        main {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
+           display: grid;
+           grid-template-columns: 1fr 1fr;
         }
         main { 
            display: grid; 
@@ -245,3 +245,8 @@
         #contact { 
            grid-column: 1 / -1; 
         }
+        
+
+        
+        
+        
