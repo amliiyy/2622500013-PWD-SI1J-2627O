@@ -26,6 +26,8 @@ $catatanTambahan = null;
 Komentar beberapa baris.
 Komentar ini tidak ditampilkan pada halaman.
 */
+const NAMA_MATA_KULIAH = "Pemrograman Web Dasar";
+const PROFIL_GITHUB = "satpamal";
 ?>
     <header>
         <h1>Profil Mahasiswa</h1>
