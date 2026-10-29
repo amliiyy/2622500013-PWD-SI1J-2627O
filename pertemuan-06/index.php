@@ -1,7 +1,3 @@
-<?php
-// Pengujian awal eksekusi PHP.
-echo "PHP berhasil dijalankan.";
-?>
 <!doctype html>
 <html lang="id">
 
@@ -13,6 +9,13 @@ echo "PHP berhasil dijalankan.";
 </head>
 
 <body>
+    <?php
+// Komentar satu baris.
+/*
+Komentar beberapa baris.
+Komentar ini tidak ditampilkan pada halaman.
+*/
+?>
     <header>
         <h1>Profil Mahasiswa</h1>
         <nav>
