@@ -6,10 +6,14 @@ $namaMahasiswa = "Amalia Halwa";
 $programStudi = "SI";
 $tahunAkademik = "2026/2027";
 $semester = 2;
+// Bagian 2: Operator
+$batasSemester = 8;
+$sisaSemester = $batasSemester - $semester;
 $ipk = 3.75;
 $statusAktif = true;
 $catatanTambahan = null;
 ?>
+
 <!doctype html>
 <html lang="id">
 
@@ -50,10 +54,11 @@ const PROFIL_GITHUB = "satpamal";
             <img src="img/foto-profil.jpg" width="200" height="150" alt="Amalia Halwa" />
         </section>
 
-        <section id="about">
-            <h2>Tentang Saya</h2>
-            <article>
-                <h3>Profil Singkat</h3>
+                <section id="about">
+                    <h2>Tentang Saya</h2>
+                    <article>
+                        <h3>Profil Singkat</3>
+                        <p>Sisa semester hingga batas: <?php echo $sisaSemester; ?></p>
                 <p>Saya mahasiswa Program Studi Sistem Informasi.</p>
 
                 <h3>Target Belajar</h3>
