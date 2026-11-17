@@ -156,7 +156,7 @@ switch ($programStudi) {
 
             <p>
                 Kunjungi
-                <a target="_blank" href="https://github.com/tika213jaemin/2622500041-PWD-SI1J-2627O.git"><?= PROFIL_GITHUB ?></a>.
+                <a target="https://github.com/amliiyy/2622500013-PWD-SI1J-2627O.git"><?= PROFIL_GITHUB ?></a>.
             </p>
             <form id="contactForm" action="indexGet.php" method="get" novalidate>
                 <div class="form-group">

@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9eef3;
+    color: #273449;
+    padding: 25px;
+}
+
+.website {
+    max-width: 1100px;
+    margin: auto;
+    background: white;
+}
+
+/* HEADER */
+.header {
+    background: #23334d;
+    color: white;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    width: 65px;
+    height: 65px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header h1 {
+    font-size: 28px;
+}
+
+.header p {
+    margin-top: 5px;
+}
+
+/* LAYOUT */
+.main-layout {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    min-height: 500px;
+}
+
+/* NAVIGASI */
+.sidebar {
+    background: #edf3f8;
+    padding: 25px;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    margin-bottom: 12px;
+}
+
+.nav-link {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: #23334d;
+    border-radius: 7px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    background: #496b91;
+    color: white;
+}
+
+/* KONTEN */
+.content {
+    padding: 35px;
+}
+
+.content h2 {
+    color: #23334d;
+    margin-bottom: 20px;
+}
+
+.content h3 {
+    margin: 25px 0 15px;
+}
+
+.content p {
+    line-height: 1.7;
+}
+
+/* BERANDA */
+.hobby {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f1f5f8;
+    border-radius: 10px;
+}
+
+.hobby h4 {
+    margin-bottom: 5px;
+    color: #496b91;
+}
+
+.hobby p {
+    margin-bottom: 20px;
+}
+
+/* PROFILE */
+.foto {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 12px;
+}
+
+td:first-child {
+    font-weight: bold;
+    background: #edf3f8;
+}
+
+/* HALAMAN */
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+/* FORMULIR */
+form {
+    max-width: 550px;
+    background: #f1f5f8;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    margin: 12px 0 5px;
+    font-weight: bold;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #23334d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #496b91;
+}
+
+#pesanHasil {
+    margin-top: 15px;
+    color: green;
+}
+
+/* FOOTER */
+.footer {
+    background: #23334d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* RESPONSIVE */
+@media (max-width: 700px) {
+    body {
+        padding: 0;
+    }
+
+    .main-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        border-right: none;
+    }
+
+    .content {
+        padding: 20px;
+    }
+}
